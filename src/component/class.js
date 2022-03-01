@@ -1,5 +1,5 @@
 import React from "react";
-
+import './card.css'
 /**
  * class
  */
@@ -33,7 +33,8 @@ export class ContentClass extends React.Component {
   render() {
     return (
       <div>
-      class
+        <label>class</label>
+      
       <button onClick={() => this.increase()}>Add</button>
       <div>{this.state.value}</div>
     </div>
